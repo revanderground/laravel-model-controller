@@ -3,7 +3,7 @@
 @section('title', 'Homepage')
 
 @section('main-content')
-    <div class="home-index text-center">
+    <div class="home-index text-center py-5">
         <div class="title-main"> Welcome to this Movie Homepage</div>
         <div class="home-imager">
             <img class="image-home" src="assets/images/home-image.png" alt="splash">

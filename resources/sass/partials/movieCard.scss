@@ -7,9 +7,21 @@
     font-size: medium;
 }
 
+.movie-cover:hover{
+    cursor: pointer;
+    scale: 0.99;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, .3);
+    transition: .5s;
+    opacity: 0.5;
+    background-color: #555;
+    border-bottom: 2px solid rgb(75, 231, 255);
+
+}
+
 .movie-cover{
     height: 250px;
     object-fit:contain;
+    border-bottom: 2px solid transparent;
 }
 
 .movie-title{

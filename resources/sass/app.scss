@@ -4,3 +4,28 @@
 @import './partials/main.scss';
 @import './partials/footer.scss';
 
+.contact-us{
+    padding-top: 50px;
+    padding-bottom: 15px;
+    width: 600px;
+}
+
+.contact-background{
+    background-color:rgba(238, 94, 137, 0.996);
+}
+
+.contact-text{
+    color: rgb(255, 255, 255);
+}
+
+.contact-text:hover{
+    color: rgb(255, 218, 68);
+    transition: .5s ease;
+    cursor:pointer;
+
+}
+
+.contact-image{
+    border-radius: 10px;
+    filter:drop-shadow(10);
+}
