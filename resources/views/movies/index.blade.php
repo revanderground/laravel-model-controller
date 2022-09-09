@@ -4,11 +4,11 @@
 
 @section('main-content')
     <div class="container-fluid">
-        <div class="row p-3 justify-content-center">
+        <div class="row p-3 justify-content-center ">
             @foreach($movies as $movie)
-              <div class="card col-3 m-3 ">
+              <div class="card col-3 m-3">
 
-                <div class="card-img p-1">
+                <div class="card-img p-1 mt-3">
                     <img src="{{ $movie->cover }}" class="card-img-top" alt="{{ $movie->title }}">
                 </div>
 
@@ -19,17 +19,19 @@
                 </div>
                 <div class="card-subtitle">
                     <h5>
-                        DATE: {{ $movie->date }} - VOTE: {{ $movie->vote }}
+                        RELEASE: {{ $movie->date }}
                     </h5>
+
+                    <h5>
+                        VOTE: {{ $movie->vote }}
+                    </h5>
+
                 </div>
 
               </div>
               @endforeach
         </div>
-               {{-- <li>
-            {{ $movie->id }} - {{ $movie->title }} - {{ $movie->date }} - {{ $movie->nationality }} - {{ $movie->date }} - {{ $movie->vote }}
-            {{ $movie->cover }}
-        </li> --}}
+
 
 
     </div>
