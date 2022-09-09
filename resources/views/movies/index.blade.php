@@ -4,7 +4,7 @@
 
 @section('main-content')
     <div class="container-fluid movie-section">
-        <div class="row p-3 justify-content-center ">
+        <div class="row p-5 justify-content-center ">
             @foreach($movies as $movie)
                 @include('partials.movies.card')
               @endforeach

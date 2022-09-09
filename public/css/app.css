@@ -10878,6 +10878,42 @@ a.my-navlink:hover {
   background-color: black;
 }
 
+.period-icon {
+  color: #918777;
+  font-size: medium;
+}
+
+.movie-cover {
+  height: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.movie-title {
+  color: white;
+  font-size: 12px;
+  font-family: Tahoma;
+}
+
+.movie-details {
+  color: #918777;
+  font-size: 11px;
+  font-family: Tahoma;
+}
+
+.my-blue {
+  color: #00c8ff;
+}
+
+.star-icon {
+  color: #00c8ff;
+  font-size: 12px;
+}
+
+.US-flag {
+  height: 10px;
+}
+
 .home-index {
   background-color: rgb(0, 0, 0);
   height: 100vh;
